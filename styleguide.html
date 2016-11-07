@@ -1,0 +1,234 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css" >
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <div class="page-header">
+            <h1>(P)information - Styleguide</h1>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Introduction
+            </div>
+            <div class="panel-body">
+                    <div  class="centerp"><p>Das Ziel unseres Designs ist, dem User/der Userin eine echte Pinnwand zu suggerieren. Durch die Farbwahl und die Struktur
+                    unserer Applikation soll dies noch hervorgehoben werden.</p></div>
+
+                    <div class="logobox"><img src="bilder/logo.png" alt="" class="logo"/></div>
+                    <p class="pClearFloat"></p>
+            </div>
+
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Colors
+            </div>
+
+            <div class="panel-body">
+              <ul>
+                  <li>Hintergrund <br>braun #b7823f</li>
+                  <div class="colorbox brown"> </div>
+                  <li>Post-Its <br>Rot #e89c9c, Blau #a8c0ec, Gelb #f5ea90</li>
+                  <div class="colorbox"> <div class="smallcbox smallred"></div><div class="smallcbox smallblue"></div><div class="smallcbox smallyellow"></div> </div>
+                  <li>Schrift von Post-Its <br>Anthrazit-schwarz #292931</li>
+                  <div class="colorbox blackA"> </div>
+                  <li>Überschrift Startbild <br>Rot #9e0401</li>
+                  <div class="colorbox red"> </div>
+                  <li>Schrift allgemein <br>Schwarz #000000</li>
+                  <div class="colorbox black"> </div>
+                  <p class="pClearFloat"></p>
+              </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Typografie
+            </div>
+            <div class="panel-body">
+                <ol class="liste">
+                    <li><h1>Überschrift 1</h1></li>
+                    <li><h2>Überschrift 2</h2></li>
+                    <li><h3>Überschrift 3</h3></li>
+                    <li><h4>Überschrift 4</h4></li>
+                    <li><h5>Überschrift 5</h5></li>
+                    <li><h6>Überschrift 6</h6></li>
+                    <li><p>Fließtext</p></li>
+                    <li><small>Kleiner Text</small></li>
+                    <li><blockquote>Zitat</blockquote></li>
+                </ol>
+
+            <pre>
+
+&lt;h1>Überschrift 1&lt;/h1>
+&lt;h2>Überschrift 2&lt;/h2>
+&lt;h3>Überschrift 3&lt;/h3>
+&lt;h4>Überschrift 4&lt;/h4>
+&lt;h5>Überschrift 5&lt;/h5>
+&lt;h6>Überschrift 6&lt;/h6>
+&lt;p>Fließtext&lt;/p>
+&lt;small>Kleiner Text&lt;/small>
+&lt;blockquote>Zitat&lt;/blockquote>
+            </pre>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              Logo
+            </div>
+            <div class="panel-body">
+				<img src="bilder/logo.png" alt="Logo" class="floatlogo"/>
+				<p class="spacetop">Der Name des Projektes vereint bereits die beiden wichtigsten Elemente unseres Konzepts, eine Pinnadel und Information. Unser Gedanke beim Entwurf des Logos war es, dies so präzise wie möglich in ein Symbol wiederzuspiegeln.  Der Buchstabe "P" bot sich sehr gut dazu an. Das jetzige Logo zeigt in rot den Buchstaben, erinnert in seiner Gesamtheit an eine Pinnadel und durch die Einarbeitung eines Ausrufezeichens werden die Begriffe "Dringlichkeit" und "Information" betont.</p>
+        </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              CSS Methodology
+            </div>
+            <div class="panel-body">
+                <ol class="liste">
+                    <li><h4>Code style rules</h4>
+                        <ul>
+                            <li>Einrückungen: 1 Tab (4 Leerzeichen)</li>
+                            <li>Einheiten: px, em, percentage</li>
+                            <li>Ordnerstruktur: Überordner "src", Inhalt:</li><br>
+                            <pre>
+`--css
+|  `--partials
+`--fonts
+`--images
+`--js
+                            </pre>
+                          </ul>
+                    <li><h4>Pre-Processor: SASS</h4></li>
+
+                    <li><h4>Class naming conventions (Bootstrap)</h4>
+                        <ul>
+                            <li>Namenskonventionen werden von Bootstrap übernommen und angepasst.</li><br>
+                <pre>
+                    <code>
+Oberklasse spezifische-Klasse: button btn btn-primary, btn btn-success
+Oberklasse spezifische-Klasse spezifische-Klasse: btn btn-default dropdown-toggle
+                    </code>
+                </pre>
+                        </ul>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Component Libraries
+            </div>
+            <div class="panel-body">
+                <ul class="liste">
+                    <li>
+                        <h3>Bootstrap</h3>
+                        <ol class="liste">
+                            <li>
+                                <h4>Buttons</h4>
+                                <p class="font_small">Buttons werden zum Bestätigen der Auswahl des Studiengangs verwendet oder zum Download von Notizen.</p>
+                                <button type="button" class="btn btn-default"><i class="material-icons">file_download</i></button>
+                                <button type="button" class="btn btn-default">OK</button>
+                                <br />
+                                <br />
+                    <pre>
+&lt;button type="button" class="btn btn-default">&lt;i class="material-icons">file_download&lt;/i>&lt;/button>
+&lt;button type="button" class="btn btn-default">OK&lt;/button>
+                    </pre>
+                            </li>
+                            <li>
+                                <h4>Dropdown</h4>
+                                <p class="font_small">Das Dropdown-Feld wird für die Startseite zum Auswählen des gewünschten Studiengangs eingesetzt.</p>
+                                <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Dropdown
+                                        <span class="caret"></span>
+                                    </button>
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                      <li><a href="#">Action</a></li>
+                                      <li><a href="#">Another action</a></li>
+                                      <li><a href="#">Something else here</a></li>
+                                      <li role="separator" class="divider"></li>
+                                      <li><a href="#">Separated link</a></li>
+                                  </ul>
+                                </div>
+                                <br />
+                                <pre>
+&lt;div class="dropdown">
+    &lt;button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Dropdown
+        &lt;span class="caret">&lt;/span>
+    &lt;/button>
+    &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+        &lt;li role="separator" class="divider">&lt;/li>
+        &lt;li>&lt;a href="#">Separated link&lt;/a>&lt;/li>
+    &lt;/ul>
+&lt;/div>
+                                </pre>
+                              </li>
+
+                            <li><h4>Navigation</h4>
+                              <p class="font_small">Der Navigationsbutton "Zurück" wird auf der Seite mit der Pinnwand angezeigt und dient zum zurücknavigieren auf die Startseite.</p>
+                              <button type="button" class="btn btn-default"><i class="material-icons">backspace</i></button>
+                              <button type="button" class="btn btn-default"><i class="material-icons">close</i></button>
+                              <br />
+                                <br />
+                    <pre>
+&lt;button type="button" class="btn btn-default">&lt;i class="material-icons">backspace&lt;/i>&lt;/button> &lt;button type="button" class="btn btn-default">&lt;i class="material-icons">close&lt;/i>&lt;/button>
+                    </pre>
+                            </li>
+                            <li></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>Material Icons</h3>
+                        <ol class="liste">
+                            <li><span class="icons"><i class="material-icons">backspace</i></span><span> Backspace</span><br>
+                              <span class="font_small">Wird verwendet, um von der Pinnwand wieder auf die Studiengangsauswahlseite zu gelangen.</span></li>
+                            <li><span class="icons"><i class="material-icons">close</i></span><span> Close</span><br>
+                              <span class="font_small">Erscheint in der Detailansicht, bei Klick darauf schließt sich diese Ansicht.</span</li>
+                            <li><span><i class="material-icons">file_download</i></span><span> Download</span><br>
+                              <span class="font_small">In der Detailansicht gibt es auch die Möglichkeit, sich das Dokument zu downloaden.</span</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+<script>
+    $(document).ready(function () {
+        $(".panel .panel-heading").append('<span class="pull-right" style="color: cornflowerblue">Expand</span>').on("click", function () {
+            var _target = $(this).parent().children(".panel-body");
+            $(_target).toggleClass("expanded");
+        });
+    });
+</script>
+</body>
+</html>

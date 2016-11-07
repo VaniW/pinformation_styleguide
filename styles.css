@@ -1,0 +1,81 @@
+html {font-size: 1em;}
+
+body {
+    width: 80%;
+    height: 100%;
+    margin: 1em auto;
+    background-color: white;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;}
+
+h3 {font-size: 1.777em;}
+
+h4,h5 {font-size: 1.333em;}
+
+h6, ul, ol {font-size: 1em;}
+
+small, .font_small {font-size: 0.75em;}
+
+blockquote {font-size: 1.333em;}
+
+.panel {
+    height: auto;
+}
+
+.panel-body {
+    width: 100%;
+    height: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    -webkit-transition: .7s ease-in-out;
+    -moz-transition: .7s ease-in-out;
+    -ms-transition: .7s ease-in-out;
+    -o-transition: .7s ease-in-out;
+    transition: .7s ease-in-out;
+}
+
+.panel-body.expanded {
+    height: 50%;
+    padding: 10px 15px;
+    overflow: auto;
+}
+.icons { margin-right: 10px; }
+
+.liste {list-style: none;}
+.liste li span {display: inline-block; vertical-align: middle;}
+
+.spacetop { margin-top: 25px;}
+
+.logo { width: 250px; height: auto;}
+.logobox { width: 250px; margin: 0px auto; }
+.floatlogo {float: left; margin-right: 25px; margin-top: 25px;}
+.centerp { width: 90%; margin-top: 10px;}
+
+.colorbox { height: 20px; width: 350px; margin: 10px 0px;}
+.smallcbox { height: inherit; width: 30%; float: left;}
+.smallred { background-color: #e89c9c; margin-right: 5%;}
+.smallblue { background-color: #a8c0ec; margin-right: 5%;}
+.smallyellow { background-color: #f5ea90;}
+.brown { background-color: #b7823f;}
+.blackA { background-color: #292931;}
+.red { background-color: #9e0401;}
+.black { background-color: #000000;}
+.pClearFloat {clear: both;}
